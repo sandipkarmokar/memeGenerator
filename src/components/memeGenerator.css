@@ -1,0 +1,171 @@
+.app_ui .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-betweem;
+    padding: 3rem 2rem;
+}
+
+.app_ui .form input {
+    margin: 0.7rem auto;
+    padding: 0.8rem 0.5rem;
+    border-radius: 8px;
+    border: 0;
+    background: #fef2f2;
+    outline: none;
+    width: 300px;
+}
+
+.app_ui .form input:-webkit-input-placeholder {
+    color: #fafafa;
+}
+
+.app_ui .form button {
+    margin: 1.5rem auto 0 auto;
+    padding: 0.7rem 0rem;
+    border-radius: 8px;
+    border: 0;
+    background: #1d4ed8;
+    color: #fafafa;
+    width: 314px;
+    font-size: 2.2rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+    cursor: pointer;
+}
+.app_ui .form button:active {
+    background: hsl(224, 79%, 37%);
+    color: #fafafa;
+    box-shadow: none;
+}
+
+.meme_ui {
+    width: 310px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.meme_ui p {
+    color: #fafafa;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.meme_ui img {
+    height: 350px;
+    width: 300px;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.meme_ui .topText {
+    position: absolute;
+    top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    text-shadow: 4px 5px 14px #210e09;
+    width: 250px;
+}
+.meme_ui .bottomText {
+    position: absolute;
+    bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    text-shadow: 4px 5px 14px #210e09;
+    width: 250px;
+}
+
+@media only screen and (min-width: 992px) {
+    .app_ui .form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 1rem 10rem;
+    }
+
+    .app_ui .form input {
+        margin: 0.7rem;
+        padding: 0.2rem 0.5rem;
+        border-radius: 8px;
+        border: 0;
+        background: #fef2f2;
+        outline: none;
+        width: 300px;
+        font-size: 1.6rem;
+    }
+
+    .app_ui .form input:-webkit-input-placeholder {
+        color: #fafafa;
+    }
+
+    .app_ui .form button {
+        margin: 0.7rem;
+        padding: 0.7rem 0rem;
+        border-radius: 8px;
+        border: 0;
+        background: #1d4ed8;
+        color: #fafafa;
+        width: 314px;
+        font-size: 2.2rem;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .app_ui .form button:active {
+        background: hsl(224, 79%, 37%);
+        color: #fafafa;
+        box-shadow: none;
+    }
+
+    .meme_ui {
+        width: 600px;
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .meme_ui p {
+        color: #fafafa;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .meme_ui img {
+        height: 400px;
+        width: 600px;
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .meme_ui .topText {
+        position: absolute;
+        top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        text-shadow: 4px 5px 14px #210e09;
+        width: 400px;
+    }
+    .meme_ui .bottomText {
+        position: absolute;
+        bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        text-shadow: 4px 5px 14px #210e09;
+        width: 400px;
+    }
+}
